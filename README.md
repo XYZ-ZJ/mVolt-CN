@@ -25,7 +25,8 @@ the currently downloadable version.
 - **Extend limits using BIOS override:** change memory, power and board current ceilings on supported hardware. [Guide](docs/guide.md#extend-limits-using-bios-override).
 - **Board input current:** a separate control in amperes, with profile and Overview support.
 - **Minimal / Compact:** a smaller dashboard with separate expandable fan and thermal input rows.
-- **Fan control:** a unified mVolt / GPU editor, direct curve fields, experimental GPU policies and profile support. A separate thermal limit control is also available.
+- **Fan control:** a unified mVolt / GPU editor, direct curve fields, experimental GPU policies and profile support.
+- **Thermal limit:** a separate temperature-limit control in °C, with profile support and Reset.
 - **Telemetry:** GPU info with silicon binning readings and firmware-reported Vrel, more temperature readings and expanded RTSS options.
 - **Shortcuts:** a global Toggle Boost Lock shortcut under Settings → Hotkeys.
 - **Fixes:** more reliable power controls, smoother window handling and improved profile and limits recovery.
