@@ -1,3 +1,36 @@
+# mVolt+ 简体中文版 (v0.50.5)
+
+[![GitHub Release](https://img.shields.io/github/v/release/XYZ-ZJ/mVolt-CN?label=Release&color=blue)](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest)
+[![Platform](https://img.shields.io/badge/Windows-x64-informational)](https://github.com/XYZ-ZJ/mVolt-CN)
+
+mVolt+ 是一款专为 NVIDIA 显卡（主打 RTX 50 系列 Blackwell 架构，同时兼顾 RTX 40 / 30 等架构）设计的轻量化电压/频率（V/F）调校与硬件监控工具。
+
+本项目由 [XYZ-ZJ/mVolt-CN](https://github.com/XYZ-ZJ/mVolt-CN) 维护，基于上游官方 [b00nz/mVolt](https://github.com/b00nz/mVolt) 原生 PE 发布版进行全量简体中文本地化与完整性签名校验。
+
+## 快速下载
+
+- **[直接下载最新汉化版 (v0.50.5)](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest/download/mVolt+-v0.50.5-zh-CN.exe)**
+- **[通用名称版本 (mVolt+-zh-CN.exe)](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest/download/mVolt+-zh-CN.exe)**
+- **[完整发布页与校验文件](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest)**
+
+> **提示**：软件无需安装，下载解压即用。由于底层电压与频率调校需要硬件控制权限，请右键**以管理员身份运行**。
+
+---
+
+## 本地构建与复现
+
+若需自行从上游原版生成汉化 EXE：
+
+```bash
+# 运行汉化补丁脚本（若本地缺少原版，会自动下载并比对官方 SHA-256）
+python3 localize_v0505.py
+```
+
+脚本将自动检查 SHA-256 安全哈希，执行定长 UTF-16LE 本地化替换，重算 `.mvi` SHA-256 seal 签名与 PE 校验和，生成 `mVolt+-v0.50.5-zh-CN.exe` 与清单。
+详细逆向排查与校验报告请参阅 [LOCALIZATION.md](LOCALIZATION.md)。
+
+---
+
 # mVolt+
 
 mVolt+ is a Windows utility for NVIDIA GPU tuning and monitoring. It supports
