@@ -7,13 +7,16 @@ mVolt+ 是一款专为 NVIDIA 显卡（主打 RTX 50 系列 Blackwell 架构，�
 
 本项目由 [XYZ-ZJ/mVolt-CN](https://github.com/XYZ-ZJ/mVolt-CN) 维护，基于上游官方 [b00nz/mVolt](https://github.com/b00nz/mVolt) 原生 PE 发布版进行全量简体中文本地化与完整性签名校验。
 
+## 界面预览
+
+![mVolt+ 简体中文主界面](assets/mvolt-dashboard-zh.png)
+
 ## 快速下载
 
 - **[直接下载最新汉化版 (v0.50.5)](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest/download/mVolt+-v0.50.5-zh-CN.exe)**
-- **[通用名称版本 (mVolt+-zh-CN.exe)](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest/download/mVolt+-zh-CN.exe)**
-- **[完整发布页与校验文件](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest)**
+- **[完整发布页与校验清单](https://github.com/XYZ-ZJ/mVolt-CN/releases/latest)**
 
-> **提示**：软件无需安装，下载解压即用。由于底层电压与频率调校需要硬件控制权限，请右键**以管理员身份运行**。
+> **提示**：软件无需安装，下载即用。由于底层电压与频率调校需要硬件控制权限，请右键**以管理员身份运行**。
 
 ---
 
